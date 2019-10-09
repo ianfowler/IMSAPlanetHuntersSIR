@@ -23,6 +23,9 @@ for i in range(0,len(data)):
 		numIndicies = 0
 
 plt.hist(data, edgecolor='white', bins=binTempArr)
+plt.xlabel("Temperature of Star (K)")
+plt.ylabel("Frequency")
+plt.title("Temperatures of Stars from the Kepler Dataset")
 plt.show()
 
 
