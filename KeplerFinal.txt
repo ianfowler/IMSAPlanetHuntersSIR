@@ -1,5 +1,4 @@
 Kepler ID,Teff
-integer,integer
 757076,5174
 757099,5589
 757137,4879
