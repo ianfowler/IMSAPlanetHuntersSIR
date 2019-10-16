@@ -28,4 +28,8 @@ plt.ylabel("Frequency")
 plt.title("Temperatures of Stars from the Kepler Dataset")
 plt.show()
 
-
+temp1 = temp.to_numpy()
+temp2 = temp1[:,1]
+ids = temp1[:,0]
+test2 = np.where((temp2> 3109) & (temp2< 3177)) #bin 1, need to write loop to do for all bins and put in array
+ids[test2]
